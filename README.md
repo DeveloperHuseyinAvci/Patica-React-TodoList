@@ -1,3 +1,10 @@
+# TodoList Patika Ödevi
+![ss1](./img/todo.png)
+![ss1](./img/todo-active.png)
+![ss1](./img/todo-completed.png)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
