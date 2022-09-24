@@ -1,0 +1,170 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 70vw;
+  /* height: 70vh; */
+  border-radius: 20px;
+  background-color: rgb(245, 247, 255);
+  padding: 50px;
+  font-family: sans-serif;
+  position: relative;
+}
+.inp-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 1px rgb(218, 216, 216);
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+.inp-content input {
+  width: 70%;
+  padding: 2rem;
+  font-size: x-large;
+  outline: none;
+  color: grey;
+  border: none;
+}
+
+.inp-content input::placeholder {
+  font-style: italic;
+  color: rgb(190, 195, 199);
+}
+
+.all_check_btn {
+  background-color: #fff;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  position: absolute;
+  left: 5rem;
+  top: 5.5rem;
+  cursor: pointer;
+}
+.all_check_btn .icon {
+  font-size: 2.5rem;
+  color: grey;
+}
+.all_check_btn:active .icon {
+  color: tomato;
+}
+
+/* List Components */
+
+.list_container {
+  width: 100%;
+}
+.list_not {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  padding: 0px 20px 0px 20px;
+  background-color: #fff;
+  border-top: 1px solid rgb(190, 189, 189);
+  border-bottom: 1px solid rgb(190, 189, 189);
+  font-size: 1.6rem;
+  color: rgb(0, 133, 126);
+  margin-bottom: 1rem;
+}
+
+.list_not label input {
+  width: 1.8rem;
+  height: 1.8rem;
+  outline: none;
+}
+
+.list_not button {
+  border: none;
+  background: none;
+  outline: none;
+}
+.list_not button:hover .icon_delete {
+  color: red;
+}
+.list_not button:active .icon_delete {
+  color: lightgreen;
+}
+
+.icon_delete {
+  font-size: 1.9rem;
+  color: tomato;
+}
+.checkbox_active {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+/* Options Components */
+
+.options_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  box-shadow: 0px 0px 10px 1px rgb(218, 216, 216);
+  background-color: #fff;
+  padding: 1rem;
+}
+
+.box_one {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 0px 10px 1px lightgreen;
+  width: 20%;
+}
+.box_one p {
+  font-size: 1.2rem;
+  margin: 0;
+  color: gray;
+}
+.box_two {
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
+}
+.box_two button {
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 10px 1px lightgreen;
+  color: gray;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 5px;
+}
+.box_two button:hover {
+  background-color: lightgreen;
+  cursor: pointer;
+}
+.box_two button:active {
+  background-color: tomato;
+  color: white;
+}
+.box_three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box_three button {
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 10px 1px lightgreen;
+  color: gray;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 5px;
+}
+.box_three button:hover {
+  cursor: pointer;
+  background-color: lightgreen;
+}
+.box_three button:active {
+  background-color: tomato;
+  color: white;
+}
